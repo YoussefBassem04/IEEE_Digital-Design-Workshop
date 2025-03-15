@@ -1,0 +1,123 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/IEEE/Digital/Lab_2
+vALU
+Z1 !s110 1741996029
+!i10b 1
+!s100 gT0Rm>XG=ngOjlY3`gKHC3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Iggczmz;haCEoX`i1:IgT80
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1741993998
+8ALU.v
+FALU.v
+!i122 18
+L0 1 38
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1741996029.000000
+!s107 Half_Adder.v|ALU.v|8x1_mux.v|4x1_mux.v|2x1_mux.v|
+Z6 !s90 2x1_mux.v|4x1_mux.v|8x1_mux.v|ALU.v|Half_Adder.v|
+!i113 1
+Z7 tCvgOpt 0
+n@a@l@u
+vHalf_Adder
+R1
+!i10b 1
+!s100 o6@Wb<jcL=NIQ]8C3C?Ec3
+R2
+I[XSUjJTBGcDlhYFHPfQd`2
+R3
+R0
+w1741993900
+8Half_Adder.v
+FHalf_Adder.v
+!i122 18
+L0 1 6
+R4
+r1
+!s85 0
+31
+R5
+Z8 !s107 Half_Adder.v|ALU.v|8x1_mux.v|4x1_mux.v|2x1_mux.v|
+R6
+!i113 1
+R7
+n@half_@adder
+vmux_2x1
+R1
+!i10b 1
+!s100 >6UME;6J?kXRgMD9K3DS:2
+R2
+IJcXgnhW8aT5MGRU]IHh2R2
+R3
+R0
+w1741994682
+82x1_mux.v
+F2x1_mux.v
+!i122 18
+L0 1 5
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vmux_4x1
+R1
+!i10b 1
+!s100 IKKVkaKjkVX_:KeOXHcO90
+R2
+IS1VUF7RS_Jb?He7WLKkGh3
+R3
+R0
+w1741995665
+84x1_mux.v
+F4x1_mux.v
+!i122 18
+L0 1 13
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vmux_8x1
+R1
+!i10b 1
+!s100 GM>e<;k8^DB9F4K<hWY=Z1
+R2
+IAYJg=FSnC]nE<hWhWVQF10
+R3
+R0
+w1741996023
+88x1_mux.v
+F8x1_mux.v
+!i122 18
+L0 1 12
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7

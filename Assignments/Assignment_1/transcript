@@ -1,0 +1,22 @@
+# vsim Q3 
+# Start time: 00:53:25 on Mar 07,2025
+# Loading work.Q3
+add wave -position insertpoint sim:/Q3/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: youss  Hostname: MSI  ProcessID: 11644
+#           Attempting to use alternate WLF file "./wlftwjm6g2".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftwjm6g2
+force -freeze sim:/Q3/A 01 0
+force -freeze sim:/Q3/C HiZ0 0
+# Invalid binary digit: H.
+# ** UI-Msg: (vsim-4011) Invalid force value: HiZ0 0.
+# 
+force -freeze sim:/Q3/C 0 0
+run
+force -freeze sim:/Q3/A 10 0
+run
+force -freeze sim:/Q3/A 11 0
+run
+# End time: 00:54:24 on Mar 07,2025, Elapsed time: 0:00:59
+# Errors: 0, Warnings: 2

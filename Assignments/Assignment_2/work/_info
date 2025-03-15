@@ -1,0 +1,100 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/IEEE/Digital/Assignments/Assignment_2
+vadder_2bit
+Z1 !s110 1742063697
+!i10b 1
+!s100 6VS1f8Aa]bTVbP64U2U]90
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ii7NBAQnNk>OB^_jLgbnzR2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1742063693
+8FA_2.v
+FFA_2.v
+!i122 6
+L0 1 11
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1742063697.000000
+!s107 Q2.v|Q1.v|FA_2.v|FA.v|
+Z6 !s90 FA.v|FA_2.v|Q1.v|Q2.v|
+!i113 1
+Z7 tCvgOpt 0
+vALU
+R1
+!i10b 1
+!s100 J<?>VcL;];j0`@bR:?Mc<1
+R2
+Ih6hl<I3[bWn]36neeXem41
+R3
+R0
+w1742061277
+8Q2.v
+FQ2.v
+!i122 6
+L0 1 44
+R4
+r1
+!s85 0
+31
+R5
+Z8 !s107 Q2.v|Q1.v|FA_2.v|FA.v|
+R6
+!i113 1
+R7
+n@a@l@u
+vcmp_4_bit
+R1
+!i10b 1
+!s100 J3?Wb8K0M9X>2ab_FI4Ne2
+R2
+IhiDDC=7PfhC7;KKGh_@Fi2
+R3
+R0
+w1741997536
+8Q1.v
+FQ1.v
+!i122 6
+L0 1 37
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vfull_adder
+R1
+!i10b 1
+!s100 j<mf<:oLCKX9J29F1z7U:1
+R2
+IjmgR^Ii_lQYPnEY^@ZnTC2
+R3
+R0
+w1742062200
+8FA.v
+FFA.v
+!i122 6
+L0 1 5
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7

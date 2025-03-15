@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/IEEE/Digital/Assignments/Assignment_1
+vQ2
+Z1 !s110 1741301484
+!i10b 1
+!s100 ?hGjRFIoOCPedaeB>zF@a3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I@aU3gEXS<=PohVA]7IH6z0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1741301217
+8Q2.v
+FQ2.v
+!i122 10
+Z4 L0 1 6
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1741301484.000000
+!s107 Q3.v|Q2.v|Q1.v|
+Z7 !s90 Q1.v|Q2.v|Q3.v|
+!i113 1
+Z8 tCvgOpt 0
+n@q2
+vQ3
+R1
+!i10b 1
+!s100 9TVa?a2]PPKl`Fc^j1<ez1
+R2
+IiDmNAI]6R;Ez8GLF;Le6e3
+R3
+R0
+w1741301474
+8Q3.v
+FQ3.v
+!i122 10
+L0 1 5
+R5
+r1
+!s85 0
+31
+R6
+Z9 !s107 Q3.v|Q2.v|Q1.v|
+R7
+!i113 1
+R8
+n@q3
+vXNOR
+R1
+!i10b 1
+!s100 g28<X[7:c;[GjU5oZonWL0
+R2
+IdWldb]`c4J?[]:6YcYSe@1
+R3
+R0
+w1741299771
+8Q1.v
+FQ1.v
+!i122 10
+R4
+R5
+r1
+!s85 0
+31
+R6
+R9
+R7
+!i113 1
+R8
+n@x@n@o@r
