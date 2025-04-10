@@ -1,0 +1,79 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/IEEE/Digital/Lab_3
+vALU_DUT
+Z1 !s110 1743102854
+!i10b 1
+!s100 =So@R?@A9S?mN=;Vb<Ec02
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IBBaVS2PMF^Vb6^Q@Q@G?50
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1743098793
+8ALU_tb.v
+FALU_tb.v
+!i122 21
+L0 1 55
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1743102854.000000
+!s107 D_FF.v|ALU_tb.v|ALU.v|
+Z6 !s90 ALU.v|ALU_tb.v|D_FF.v|
+!i113 1
+Z7 tCvgOpt 0
+n@a@l@u_@d@u@t
+vd_ff
+R1
+!i10b 1
+!s100 U0M13z`P_824gnB0UzKT13
+R2
+IcTC;d>^2E?cmh7oLhXL`A0
+R3
+R0
+w1743102851
+8D_FF.v
+FD_FF.v
+!i122 21
+L0 1 13
+R4
+r1
+!s85 0
+31
+R5
+Z8 !s107 D_FF.v|ALU_tb.v|ALU.v|
+R6
+!i113 1
+R7
+vLab2_ALU
+R1
+!i10b 1
+!s100 2l>`9CR_H3MRYCnCb0l;M0
+R2
+IO<im@2MRHn5RzEjD=:Qjh2
+R3
+R0
+w1743095664
+8ALU.v
+FALU.v
+!i122 21
+L0 1 47
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+n@lab2_@a@l@u

@@ -1,0 +1,148 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/IEEE/Digital/Assignments/Assignment_3
+vALU
+Z1 !s110 1743109496
+!i10b 1
+!s100 lL@MKoWLzhbh`TlMkEZ3V0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IHel:c<@:EU9NQ[H0CgXB43
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1743104702
+Z4 8ALU.v
+Z5 FALU.v
+!i122 23
+L0 1 44
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1743109496.000000
+!s107 Q3.v|D_latch_tb.v|D_Latch.v|ALU_tb.v|ALU.v|
+Z8 !s90 ALU.v|ALU_tb.v|D_Latch.v|D_latch_tb.v|Q3.v|
+!i113 1
+Z9 tCvgOpt 0
+n@a@l@u
+vALU_DUT
+R1
+!i10b 1
+!s100 YKMK2ES7z>z`jn8TF]=mb2
+R2
+Ib>D=2G5^UX:8MT_QbPcYc2
+R3
+R0
+w1743108631
+8ALU_tb.v
+FALU_tb.v
+!i122 23
+L0 1 72
+R6
+r1
+!s85 0
+31
+R7
+Z10 !s107 Q3.v|D_latch_tb.v|D_Latch.v|ALU_tb.v|ALU.v|
+R8
+!i113 1
+R9
+n@a@l@u_@d@u@t
+vd_lat_DUT
+R1
+!i10b 1
+!s100 ;7Yh`0ZLdXMgd`61d4B^J3
+R2
+I1NK=]_o0b[l0E1aRR>Km11
+R3
+R0
+w1743108718
+8D_latch_tb.v
+FD_latch_tb.v
+!i122 23
+L0 1 37
+R6
+r1
+!s85 0
+31
+R7
+R10
+R8
+!i113 1
+R9
+nd_lat_@d@u@t
+vd_latch
+R1
+!i10b 1
+!s100 WYdm9CEEcMGRW<gV=L<mG1
+R2
+IoA7=o0>6I`mV1P60SA0070
+R3
+R0
+w1743108871
+8D_Latch.v
+FD_Latch.v
+!i122 23
+L0 1 12
+R6
+r1
+!s85 0
+31
+R7
+R10
+R8
+!i113 1
+R9
+vFF
+R1
+!i10b 1
+!s100 >EMgoL_K2e@KeFGaXcAAc3
+R2
+I`U9kbEOGU=FBES@D]A=ka3
+R3
+R0
+w1743109493
+8Q3.v
+FQ3.v
+!i122 23
+L0 1 22
+R6
+r1
+!s85 0
+31
+R7
+R10
+R8
+!i113 1
+R9
+n@f@f
+vLab2_ALU
+!s110 1743104479
+!i10b 1
+!s100 2l>`9CR_H3MRYCnCb0l;M0
+R2
+IO<im@2MRHn5RzEjD=:Qjh2
+R3
+R0
+w1743095664
+R4
+R5
+!i122 1
+L0 1 47
+R6
+r1
+!s85 0
+31
+!s108 1743104479.000000
+!s107 ALU_tb.v|ALU.v|
+!s90 -reportprogress|300|ALU.v|ALU_tb.v|
+!i113 1
+R9
+n@lab2_@a@l@u
