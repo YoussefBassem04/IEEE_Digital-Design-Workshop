@@ -1,0 +1,26 @@
+# vsim up_counter_DUT 
+# Start time: 17:15:42 on Apr 15,2025
+# Loading work.up_counter_DUT
+# Loading work.up_counter
+add wave -position insertpoint sim:/up_counter_DUT/*
+run -all
+# Q =  0
+# Q =  1
+# Q =  2
+# Q =  3
+# Q =  4
+# Q =  5
+# Q =  6
+# Q =  7
+# Q =  8
+# Q =  9
+# Q = 10
+# Q = 11
+# Q = 12
+# Q = 13
+# Q = 14
+# Q = 15
+# error
+# ** Note: $stop    : up_counter_tb.v(26)
+#    Time: 160 ps  Iteration: 1  Instance: /up_counter_DUT
+# Break in Module up_counter_DUT at up_counter_tb.v line 26

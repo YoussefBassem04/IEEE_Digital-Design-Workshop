@@ -1,0 +1,237 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Electronics - Analog and Digital/IEEE/Digital Design/ALU_mini_proj
+vadd
+Z1 !s110 1749653216
+!i10b 1
+!s100 fEBa;CN[KMf^13BidH;[]0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IKDUlQ2Zz>T9?U_BHa:9DQ2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1749602250
+8add.v
+Fadd.v
+!i122 58
+L0 1 31
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1749653216.000000
+!s107 sub_tb.v|sub.v|rem_tb.v|rem.v|my_ALU.v|mul_tb.v|mul.v|ALU_tb.v|add_tb.v|add.v|
+Z6 !s90 add.v|add_tb.v|ALU_tb.v|mul.v|mul_tb.v|my_ALU.v|rem.v|rem_tb.v|sub.v|sub_tb.v|
+!i113 1
+Z7 tCvgOpt 0
+vadd_DUT
+R1
+!i10b 1
+!s100 gOkz<:aeAI2l^ODM=fa4I3
+R2
+IR2oiI5>MF_J549PM5R1Ab3
+R3
+R0
+w1749602856
+8add_tb.v
+Fadd_tb.v
+!i122 58
+L0 1 33
+R4
+r1
+!s85 0
+31
+R5
+Z8 !s107 sub_tb.v|sub.v|rem_tb.v|rem.v|my_ALU.v|mul_tb.v|mul.v|ALU_tb.v|add_tb.v|add.v|
+R6
+!i113 1
+R7
+nadd_@d@u@t
+vALU
+R1
+!i10b 1
+!s100 Gc]ZRE[hLcW?I5Mhe_TUP2
+R2
+IG17SH1_>eLaSBk78]8B@A3
+R3
+R0
+w1749653197
+8my_ALU.v
+Fmy_ALU.v
+!i122 58
+L0 1 28
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+n@a@l@u
+vALU_DUT
+R1
+!i10b 1
+!s100 ab?PVjb`745<CYbQN=7fk2
+R2
+I3UBEZd:@<l4XjDndeaFcY3
+R3
+R0
+w1749653102
+8ALU_tb.v
+FALU_tb.v
+!i122 58
+L0 1 47
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+n@a@l@u_@d@u@t
+vmul
+R1
+!i10b 1
+!s100 U1Sme6cJ4?LMbKE>]Ee_B3
+R2
+IQYNR2=?ObCf4P[jAdgJ6f1
+R3
+R0
+w1749597988
+8mul.v
+Fmul.v
+!i122 58
+L0 1 8
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vmul_DUT
+R1
+!i10b 1
+!s100 i2jma?EJnTGL=aLSoSCiF2
+R2
+I[NmFSaILK@XT9TA`<LdFb0
+R3
+R0
+w1749597872
+8mul_tb.v
+Fmul_tb.v
+!i122 58
+L0 1 30
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+nmul_@d@u@t
+vrem
+R1
+!i10b 1
+!s100 _5eUi5akSXj1kXiO`4G;:3
+R2
+IPi?=0>>6iMPc2UdG30@0D3
+R3
+R0
+w1749652986
+8rem.v
+Frem.v
+!i122 58
+L0 1 5
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vrem_DUT
+R1
+!i10b 1
+!s100 4TaifU]`lb1lZP=^lLRLe3
+R2
+IE8k`9`n9A]ZVYMVQdbnM@1
+R3
+R0
+w1749598082
+8rem_tb.v
+Frem_tb.v
+!i122 58
+L0 1 27
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+nrem_@d@u@t
+vsub
+R1
+!i10b 1
+!s100 ZQB5;M<J1BDO4Mz8Hn=7@0
+R2
+IXI^C]6:;4;egblgoM=Dz50
+R3
+R0
+w1749602988
+8sub.v
+Fsub.v
+!i122 58
+L0 1 29
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vsub_DUT
+R1
+!i10b 1
+!s100 SZ^4:>DioD`dn`WXPMg1[3
+R2
+IJ<3ace7IYL3HBVACa?llo0
+R3
+R0
+w1749604113
+8sub_tb.v
+Fsub_tb.v
+!i122 58
+L0 1 35
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+nsub_@d@u@t

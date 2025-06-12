@@ -1,0 +1,192 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/IEEE/Digital/Lab_3
+vALU_DUT
+Z0 !s110 1749704075
+!i10b 1
+!s100 =So@R?@A9S?mN=;Vb<Ec02
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IBBaVS2PMF^Vb6^Q@Q@G?50
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Electronics - Analog and Digital/IEEE/Digital Design/Labs/Lab_3
+w1743098793
+8ALU_tb.v
+FALU_tb.v
+!i122 68
+L0 1 55
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1749704075.000000
+!s107 tb_reg.v|tb_counter.v|N_decade_counter.v|D_FF_tb.v|D_FF.v|ALU_tb.v|ALU.v|8_bit_reg.v|
+Z6 !s90 8_bit_reg.v|ALU.v|ALU_tb.v|D_FF.v|D_FF_tb.v|N_decade_counter.v|tb_counter.v|tb_reg.v|
+!i113 1
+Z7 tCvgOpt 0
+n@a@l@u_@d@u@t
+vcounter_DUT
+R0
+!i10b 1
+!s100 83_Sfd<9TCn]3hSn6[6B90
+R1
+I:?T^7?X51hMiaFV`AI@ch3
+R2
+R3
+w1749703696
+8tb_counter.v
+Ftb_counter.v
+!i122 68
+L0 2 27
+R4
+r1
+!s85 0
+31
+R5
+Z8 !s107 tb_reg.v|tb_counter.v|N_decade_counter.v|D_FF_tb.v|D_FF.v|ALU_tb.v|ALU.v|8_bit_reg.v|
+R6
+!i113 1
+R7
+ncounter_@d@u@t
+vd_ff
+R0
+!i10b 1
+!s100 ESAGg7[`g<3jmLcY[R=2J2
+R1
+IIMPeAeMje`9]N?VbkQR^J2
+R2
+R3
+w1749574123
+8D_FF.v
+FD_FF.v
+!i122 68
+L0 2 14
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vd_ff_DUT
+R0
+!i10b 1
+!s100 a<TcYX9L7dkPPE2o1dN[f1
+R1
+I>0gi8NB>6Gkh@nUn9[JVk3
+R2
+R3
+w1749663094
+8D_FF_tb.v
+FD_FF_tb.v
+!i122 68
+L0 2 46
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+nd_ff_@d@u@t
+vdecade_counter
+R0
+!i10b 1
+!s100 @18Z6R3U?XIQjg^XLEnQ02
+R1
+I2;>R2^8a>DS1dK21Fd6bV1
+R2
+R3
+w1749704072
+8N_decade_counter.v
+FN_decade_counter.v
+!i122 68
+L0 1 19
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vLab2_ALU
+R0
+!i10b 1
+!s100 2l>`9CR_H3MRYCnCb0l;M0
+R1
+IO<im@2MRHn5RzEjD=:Qjh2
+R2
+R3
+w1743095664
+8ALU.v
+FALU.v
+!i122 68
+L0 1 47
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+n@lab2_@a@l@u
+vmy_register
+R0
+!i10b 1
+!s100 en`NI2<NZ0]ZFgnnV8C0R1
+R1
+IhTk^b7zTh`^8IoZ=BCQ]T0
+R2
+R3
+w1749663123
+88_bit_reg.v
+F8_bit_reg.v
+!i122 68
+L0 1 17
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vmyReg_DUT
+R0
+!i10b 1
+!s100 `Mgeh5:n=KB:Cc=M^:oMM3
+R1
+ICZ^>HmFVj>ie>PCF@IBgC2
+R2
+R3
+w1749663740
+8tb_reg.v
+Ftb_reg.v
+!i122 68
+L0 1 49
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+nmy@reg_@d@u@t

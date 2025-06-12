@@ -1,0 +1,55 @@
+# vsim counter_DUT 
+# Start time: 07:54:40 on Jun 12,2025
+# Loading work.counter_DUT
+# Loading work.decade_counter
+add wave -position insertpoint  \
+sim:/counter_DUT/T \
+sim:/counter_DUT/t \
+sim:/counter_DUT/clk \
+sim:/counter_DUT/q
+run -all
+# Time: 0 | clk: 0 | q: 111
+# Time: 10000 | clk: 1 | q: 111
+# Time: 20000 | clk: 0 | q: 000
+# Time: 30000 | clk: 1 | q: 000
+# Time: 40000 | clk: 0 | q: 001
+# Time: 50000 | clk: 1 | q: 001
+# Time: 60000 | clk: 0 | q: 010
+# Time: 70000 | clk: 1 | q: 010
+# Time: 80000 | clk: 0 | q: 011
+# Time: 90000 | clk: 1 | q: 011
+# Time: 100000 | clk: 0 | q: 100
+# Time: 110000 | clk: 1 | q: 100
+# Time: 120000 | clk: 0 | q: 101
+# Time: 130000 | clk: 1 | q: 101
+# Time: 140000 | clk: 0 | q: 110
+# Time: 150000 | clk: 1 | q: 110
+# Time: 160000 | clk: 0 | q: 111
+# Time: 170000 | clk: 1 | q: 111
+# Time: 180000 | clk: 0 | q: 000
+# Time: 190000 | clk: 1 | q: 000
+# Time: 200000 | clk: 0 | q: 001
+# Time: 210000 | clk: 1 | q: 001
+# Time: 220000 | clk: 0 | q: 010
+# Time: 230000 | clk: 1 | q: 010
+# Time: 240000 | clk: 0 | q: 011
+# Time: 250000 | clk: 1 | q: 011
+# Time: 260000 | clk: 0 | q: 100
+# Time: 270000 | clk: 1 | q: 100
+# Time: 280000 | clk: 0 | q: 101
+# Time: 290000 | clk: 1 | q: 101
+# Time: 300000 | clk: 0 | q: 110
+# Time: 310000 | clk: 1 | q: 110
+# Time: 320000 | clk: 0 | q: 111
+# Time: 330000 | clk: 1 | q: 111
+# Time: 340000 | clk: 0 | q: 000
+# Time: 350000 | clk: 1 | q: 000
+# Time: 360000 | clk: 0 | q: 001
+# Time: 370000 | clk: 1 | q: 001
+# Time: 380000 | clk: 0 | q: 010
+# Time: 390000 | clk: 1 | q: 010
+# ** Note: $stop    : tb_counter.v(25)
+#    Time: 400 ns  Iteration: 0  Instance: /counter_DUT
+# Break in Module counter_DUT at tb_counter.v line 25
+# End time: 07:55:30 on Jun 12,2025, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 0

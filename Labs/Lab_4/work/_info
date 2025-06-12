@@ -1,0 +1,122 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/IEEE/Digital/Lab_4
+vfour_bit_counter
+Z1 !s110 1744730138
+!i10b 1
+!s100 Z80Q7PQAZhXJi^OlHPIN`1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I4:U6XO`@Ie>TI2B>BDT:i1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1744728597
+8up_down.v
+Fup_down.v
+!i122 21
+L0 1 22
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1744730137.000000
+!s107 up_down.v|up_counter_tb.v|up_counter.v|lfbsr.v|
+Z6 !s90 lfbsr.v|up_counter.v|up_counter_tb.v|up_down.v|
+!i113 1
+Z7 tCvgOpt 0
+vlfsr
+R1
+!i10b 1
+!s100 e_lTO<Oic[1id7XG]QMz^3
+R2
+I@3fiFWF0YoFlI6?N^U5_>2
+R3
+R0
+w1744728267
+Z8 8lfbsr.v
+Z9 Flfbsr.v
+!i122 21
+L0 1 20
+R4
+r1
+!s85 0
+31
+R5
+Z10 !s107 up_down.v|up_counter_tb.v|up_counter.v|lfbsr.v|
+R6
+!i113 1
+R7
+vlsfr
+!s110 1744726031
+!i10b 1
+!s100 mFS5QENXio75:6kc`RJdz1
+R2
+I<h4IHa`6=zIXzX@N3z=IE3
+R3
+R0
+w1744726028
+R8
+R9
+!i122 5
+L0 1 24
+R4
+r1
+!s85 0
+31
+!s108 1744726031.000000
+!s107 up_down.v|lfbsr.v|
+!s90 lfbsr.v|up_down.v|
+!i113 1
+R7
+vup_counter
+R1
+!i10b 1
+!s100 zDfegWSOH>7oPLCm^YVL<2
+R2
+I0`PQ0g97zE<fS?4kY8kcj2
+R3
+R0
+w1744728649
+8up_counter.v
+Fup_counter.v
+!i122 21
+L0 1 16
+R4
+r1
+!s85 0
+31
+R5
+R10
+R6
+!i113 1
+R7
+vup_counter_DUT
+R1
+!i10b 1
+!s100 N:a7PnFNE6392iE`ACk>R1
+R2
+InCWj:AQ?GbaAJ90VIJaPH1
+R3
+R0
+w1744730118
+8up_counter_tb.v
+Fup_counter_tb.v
+!i122 21
+L0 1 42
+R4
+r1
+!s85 0
+31
+R5
+R10
+R6
+!i113 1
+R7
+nup_counter_@d@u@t
