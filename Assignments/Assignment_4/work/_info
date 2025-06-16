@@ -1,0 +1,193 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Electronics - Analog and Digital/IEEE/Digital Design/Assignments/Assignment_4
+vAdder
+Z1 !s110 1750100599
+!i10b 1
+!s100 ?ldLDFDD@8]80D5f:2k@K0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IeS>CPXOP:leHkzd5N`RAO1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1750099910
+8Adder.v
+FAdder.v
+!i122 22
+L0 1 5
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1750100599.000000
+!s107 tb_Q3.v|tb_Q2.v|tb_Q1.v|shift_reg.v|Operator.v|Multiplier.v|johnson_counter.v|Adder.v|
+Z6 !s90 Adder.v|johnson_counter.v|Multiplier.v|Operator.v|shift_reg.v|tb_Q1.v|tb_Q2.v|tb_Q3.v|
+!i113 1
+Z7 tCvgOpt 0
+n@adder
+vjohnson_counter
+R1
+!i10b 1
+!s100 34][g^73k@6m5nCR7WX<o3
+R2
+IA^3lEBQFLj<cnPP2KX@k@2
+R3
+R0
+w1750098992
+8johnson_counter.v
+Fjohnson_counter.v
+!i122 22
+L0 1 12
+R4
+r1
+!s85 0
+31
+R5
+Z8 !s107 tb_Q3.v|tb_Q2.v|tb_Q1.v|shift_reg.v|Operator.v|Multiplier.v|johnson_counter.v|Adder.v|
+R6
+!i113 1
+R7
+vjohnson_DUT
+R1
+!i10b 1
+!s100 f@lbZEeB@0]`a9`MN`>8D3
+R2
+IkQGGGfKTa@X?b<>5=NTWA2
+R3
+R0
+w1750098971
+8tb_Q2.v
+Ftb_Q2.v
+!i122 22
+Z9 L0 1 28
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+njohnson_@d@u@t
+vMultiplier
+R1
+!i10b 1
+!s100 c_DTfbY1=@g[6d7@@VCXY1
+R2
+I8JAZLI4UAQBPKgi:Sb<^_0
+R3
+R0
+w1750099935
+8Multiplier.v
+FMultiplier.v
+!i122 22
+L0 1 9
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+n@multiplier
+vOperator
+R1
+!i10b 1
+!s100 _Gfi020Y`K9O6aAK]]=[e2
+R2
+I_DM:fhdS[5o:k7P@BbT=K3
+R3
+R0
+w1750100334
+8Operator.v
+FOperator.v
+!i122 22
+L0 1 33
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+n@operator
+vOperator_DUT
+R1
+!i10b 1
+!s100 `l[h8XS9djf[YN2KMTVPM3
+R2
+II`9idE]l@F:0Sgjn7@V:T3
+R3
+R0
+w1750100596
+8tb_Q3.v
+Ftb_Q3.v
+!i122 22
+R9
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+n@operator_@d@u@t
+vshift_reg
+R1
+!i10b 1
+!s100 :6dHERggA:`bgRn7SA2]12
+R2
+IA^Y7d>a]Vn0iFYf;^TJ7o1
+R3
+R0
+w1750097996
+8shift_reg.v
+Fshift_reg.v
+!i122 22
+L0 1 27
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vshift_reg_DUT
+R1
+!i10b 1
+!s100 Vchd]^[C;78bfCOk8K0fk0
+R2
+Iz=jFRnfW]0WNQzocCVP@43
+R3
+R0
+w1750097220
+8tb_Q1.v
+Ftb_Q1.v
+!i122 22
+L0 1 57
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+nshift_reg_@d@u@t

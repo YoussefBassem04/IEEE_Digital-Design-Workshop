@@ -10,63 +10,86 @@ z2
 cModel Technology
 Z0 dC:/IEEE/Digital/Lab_4
 vfour_bit_counter
-Z1 !s110 1744730138
+!s110 1744730138
 !i10b 1
 !s100 Z80Q7PQAZhXJi^OlHPIN`1
-Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
 I4:U6XO`@Ie>TI2B>BDT:i1
-Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
 w1744728597
-8up_down.v
-Fup_down.v
+Z3 8up_down.v
+Z4 Fup_down.v
 !i122 21
 L0 1 22
-Z4 OV;L;2020.1;71
+Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1744730137.000000
+!s108 1744730137.000000
 !s107 up_down.v|up_counter_tb.v|up_counter.v|lfbsr.v|
-Z6 !s90 lfbsr.v|up_counter.v|up_counter_tb.v|up_down.v|
+!s90 lfbsr.v|up_counter.v|up_counter_tb.v|up_down.v|
 !i113 1
-Z7 tCvgOpt 0
+Z6 tCvgOpt 0
 vlfsr
-R1
+Z7 !s110 1750026736
 !i10b 1
-!s100 e_lTO<Oic[1id7XG]QMz^3
+!s100 Fz=A6f3e<dzb3WlCUl`8a0
+R1
+IEh0od=]6eg0@Y<XQ]9HKQ2
 R2
-I@3fiFWF0YoFlI6?N^U5_>2
-R3
-R0
-w1744728267
-Z8 8lfbsr.v
-Z9 Flfbsr.v
-!i122 21
-L0 1 20
-R4
+Z8 dC:/Electronics - Analog and Digital/IEEE/Digital Design/Labs/Lab_4
+w1749717600
+8lfsr.v
+Flfsr.v
+!i122 46
+L0 1 13
+R5
 r1
 !s85 0
 31
-R5
-Z10 !s107 up_down.v|up_counter_tb.v|up_counter.v|lfbsr.v|
-R6
+Z9 !s108 1750026736.000000
+!s107 up_down.v|up_counter_tb.v|up_counter.v|tb_up_down.v|tb_SIPO.v|tb_PISO.v|tb_lfsr.v|SIPO.v|PISO.v|lfsr.v|
+Z10 !s90 lfsr.v|PISO.v|SIPO.v|tb_lfsr.v|tb_PISO.v|tb_SIPO.v|tb_up_down.v|up_counter.v|up_counter_tb.v|up_down.v|
 !i113 1
+R6
+vlfsr_DUT
 R7
+!i10b 1
+!s100 mg;<2<@0ldKh52mmmg[MJ3
+R1
+I:KBaHMDg:@l]QnFh[_Ko_3
+R2
+R8
+w1749717906
+8tb_lfsr.v
+Ftb_lfsr.v
+!i122 46
+L0 1 23
+R5
+r1
+!s85 0
+31
+R9
+Z11 !s107 up_down.v|up_counter_tb.v|up_counter.v|tb_up_down.v|tb_SIPO.v|tb_PISO.v|tb_lfsr.v|SIPO.v|PISO.v|lfsr.v|
+R10
+!i113 1
+R6
+nlfsr_@d@u@t
 vlsfr
 !s110 1744726031
 !i10b 1
 !s100 mFS5QENXio75:6kc`RJdz1
-R2
+R1
 I<h4IHa`6=zIXzX@N3z=IE3
-R3
+R2
 R0
 w1744726028
-R8
-R9
+8lfbsr.v
+Flfbsr.v
 !i122 5
 L0 1 24
-R4
+R5
 r1
 !s85 0
 31
@@ -74,49 +97,186 @@ r1
 !s107 up_down.v|lfbsr.v|
 !s90 lfbsr.v|up_down.v|
 !i113 1
+R6
+vPISO
 R7
-vup_counter
-R1
 !i10b 1
-!s100 zDfegWSOH>7oPLCm^YVL<2
+!s100 bICkD11;OhJCDYz7_]P?U0
+R1
+I`SRad@;6Wzizc?nXU7`:z3
 R2
-I0`PQ0g97zE<fS?4kY8kcj2
-R3
-R0
-w1744728649
+R8
+w1749716943
+8PISO.v
+FPISO.v
+!i122 46
+L0 1 20
+R5
+r1
+!s85 0
+31
+R9
+R11
+R10
+!i113 1
+R6
+n@p@i@s@o
+vPISO_DUT
+R7
+!i10b 1
+!s100 lD:7Uf9eE`HHoI=X;gYGO0
+R1
+I9c_N0Kh[d0[=2;W9>_6DN2
+R2
+R8
+w1749717000
+8tb_PISO.v
+Ftb_PISO.v
+!i122 46
+L0 1 40
+R5
+r1
+!s85 0
+31
+R9
+R11
+R10
+!i113 1
+R6
+n@p@i@s@o_@d@u@t
+vSIPO
+R7
+!i10b 1
+!s100 k0naeSONjV;]0CN8g_z>M3
+R1
+I<g9BIj5?BEoYQ[5Ld6;h?3
+R2
+R8
+w1749715992
+8SIPO.v
+FSIPO.v
+!i122 46
+L0 1 17
+R5
+r1
+!s85 0
+31
+R9
+R11
+R10
+!i113 1
+R6
+n@s@i@p@o
+vSIPO_DUT
+R7
+!i10b 1
+!s100 YNjTXWIc_;`l3oVl5O:042
+R1
+I=XDckSc?BSlR2leQ^bI[j0
+R2
+R8
+w1749716138
+8tb_SIPO.v
+Ftb_SIPO.v
+!i122 46
+L0 1 36
+R5
+r1
+!s85 0
+31
+R9
+R11
+R10
+!i113 1
+R6
+n@s@i@p@o_@d@u@t
+vup_counter
+R7
+!i10b 1
+!s100 iTUINnPMkb8R419:Jg^_d2
+R1
+I9dDa7n6k]?QeLjleZmLRJ2
+R2
+R8
+w1750026083
 8up_counter.v
 Fup_counter.v
-!i122 21
-L0 1 16
-R4
+!i122 46
+Z12 L0 1 19
+R5
 r1
 !s85 0
 31
-R5
+R9
+R11
 R10
-R6
 !i113 1
-R7
+R6
 vup_counter_DUT
-R1
+R7
 !i10b 1
-!s100 N:a7PnFNE6392iE`ACk>R1
+!s100 QVZ5QDQJ92cHM0ai=KH101
+R1
+IiV2NH5F]01Z;ISg8^:Oe50
 R2
-InCWj:AQ?GbaAJ90VIJaPH1
-R3
-R0
-w1744730118
+R8
+w1750026708
 8up_counter_tb.v
 Fup_counter_tb.v
-!i122 21
-L0 1 42
-R4
+!i122 46
+L0 1 49
+R5
 r1
 !s85 0
 31
-R5
+R9
+R11
 R10
-R6
 !i113 1
-R7
+R6
 nup_counter_@d@u@t
+vup_down_counter
+R7
+!i10b 1
+!s100 mEh@ch5LFS`ec35lY^Fbi0
+R1
+IS5FGTW<jjcN@l2bGz0m7X1
+R2
+R8
+w1749706065
+R3
+R4
+!i122 46
+R12
+R5
+r1
+!s85 0
+31
+R9
+R11
+R10
+!i113 1
+R6
+vup_down_counter_DUT
+R7
+!i10b 1
+!s100 Y7Z?_[]HjC?^R?0ZT<:o43
+R1
+I>=2G`c3@YiIbC^kWQKa6:0
+R2
+R8
+w1749707350
+8tb_up_down.v
+Ftb_up_down.v
+!i122 46
+L0 1 37
+R5
+r1
+!s85 0
+31
+R9
+R11
+R10
+!i113 1
+R6
+nup_down_counter_@d@u@t

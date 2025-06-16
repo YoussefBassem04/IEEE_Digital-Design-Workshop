@@ -3,12 +3,15 @@ output reg [3:0] count);
 
 
 
-always @(posedge clk, negedge rst) begin
-    if (!rst) begin
+always @(posedge clk, posedge rst) begin
+    if (rst) begin
         count <= 4'b0000;
     end
     else if (en) begin
         count <= count + 1;
+    end
+    else begin
+        count <= count; 
     end
     
 end

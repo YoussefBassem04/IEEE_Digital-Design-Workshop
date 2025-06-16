@@ -13,28 +13,35 @@ initial begin
 
 end
 
-initial begin
-       rst = 0;
-    #10
-    rst = 1;
 
+
+
+initial begin
+    $monitor("At t = %d\tcount = %d\treset = %d\tEnable = %d\n", $time, q, rst, en);
+    rst = 1; en = 0;
+    @(negedge clk);
+    rst = 0; // Release reset
+
+    // Case 1: Counter should remain at 0 when enable is low
+    en = 0;
+    @(negedge clk);
+    if (q !== 4'b0000) begin
+        $display("Test failed: Counter should be 0 when enable is low.");
+    end
+    // Case 2
     en = 1;
-    repeat(100)begin
-      @(negedge clk);
-        if (q == 4'b1111) begin
-        $display("error");
-        $stop;
-    end
-    end
-    $stop;
-end
+    repeat(15) @(negedge clk);
+    // Case 5:
+    @(negedge clk);
+    rst = 1;
+    @(negedge clk);
+    rst = 0;
+    @(negedge clk);
 
-initial begin
- 
-
-  
-
-    $monitor("Q = %d",q);
+    // Case 6:
+    en = 1;
+    repeat(3) @(negedge clk);
+$stop;
 
 
 end

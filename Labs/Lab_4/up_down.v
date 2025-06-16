@@ -1,20 +1,17 @@
-module four_bit_counter (input rst, input clk, input en,input cond,
-output reg [3:0] count);
+module up_down_counter (input rst, clk, en, up_down, output reg [3:0] count);
 
-
-
-always @(posedge clk, negedge rst) begin
-    if (!rst) begin
-        if (cond) begin
-            count <= 4'b1111;
-        end
+always @(posedge clk) begin
+    if(!rst) begin
+        count <= 4'b0000; 
+    end 
+    else if (en && count != 4'b1111 && up_down) begin
+        count <= count + 1; // Increment
     end
-    else if (en) begin
-        case (cond)
-            1'b0:begin count <= count + 1;end
-            1'b1:begin count <= count - 1;end
-            default: count <= 4'b0000;
-        endcase
+    else if (en && count != 4'b0000 && !up_down) begin
+        count <= count - 1; // Decrement
+    end
+    else begin
+        count <= count; // Hold value
     end
     
 end
