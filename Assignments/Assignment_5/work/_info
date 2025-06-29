@@ -1,0 +1,237 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Electronics - Analog and Digital/IEEE/Digital Design/Assignments/Assignment_5
+vmealy_101_overlap
+Z1 !s110 1751238476
+!i10b 1
+!s100 Whh`ggW=DKVLGXhdFIKaN0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ITel1IVoQcc8;WmH?T:ZU62
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1751156116
+8mealy_101_overlap.v
+Fmealy_101_overlap.v
+!i122 24
+L0 1 25
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1751238476.000000
+!s107 vending_machine.v|tb_VM.v|tb_moore_ov.v|tb_moore_nonov.v|tb_mealy_ov.v|tb_mealy_nonov.v|moore_101_overlap.v|moore_101_nonoverlap.v|mealy_101_overlap.v|mealy_101_nonoverlap.v|
+Z6 !s90 mealy_101_nonoverlap.v|mealy_101_overlap.v|moore_101_nonoverlap.v|moore_101_overlap.v|tb_mealy_nonov.v|tb_mealy_ov.v|tb_moore_nonov.v|tb_moore_ov.v|tb_VM.v|vending_machine.v|
+!i113 1
+Z7 tCvgOpt 0
+vmealy_nonov_DUT
+R1
+!i10b 1
+!s100 H7I3<LkaA6g[?lcXLM[N=0
+R2
+IQjP^LPoCebB?n_aWDGzW:2
+R3
+R0
+w1751238081
+8tb_mealy_nonov.v
+Ftb_mealy_nonov.v
+!i122 24
+Z8 L0 1 31
+R4
+r1
+!s85 0
+31
+R5
+Z9 !s107 vending_machine.v|tb_VM.v|tb_moore_ov.v|tb_moore_nonov.v|tb_mealy_ov.v|tb_mealy_nonov.v|moore_101_overlap.v|moore_101_nonoverlap.v|mealy_101_overlap.v|mealy_101_nonoverlap.v|
+R6
+!i113 1
+R7
+nmealy_nonov_@d@u@t
+vmealy_nonoverlap
+R1
+!i10b 1
+!s100 A``Q];9ZSO5DTie>A5oJX0
+R2
+ITVU`5@fRMH6G20B^d1bQ@3
+R3
+R0
+w1751238040
+8mealy_101_nonoverlap.v
+Fmealy_101_nonoverlap.v
+!i122 24
+L0 1 26
+R4
+r1
+!s85 0
+31
+R5
+R9
+R6
+!i113 1
+R7
+vmealy_ov_DUT
+R1
+!i10b 1
+!s100 U[Mk][WIkbR4oJU9>29m02
+R2
+IFBMhzD>a=9Jdn7ggCehdB3
+R3
+R0
+w1751221858
+8tb_mealy_ov.v
+Ftb_mealy_ov.v
+!i122 24
+R8
+R4
+r1
+!s85 0
+31
+R5
+R9
+R6
+!i113 1
+R7
+nmealy_ov_@d@u@t
+vmoore_101_nonoverlap
+R1
+!i10b 1
+!s100 k6ZgHD<^eAgH:3P9_5FZ=2
+R2
+I1<Jd2S46KbDXilKC`goS23
+R3
+R0
+w1751238426
+8moore_101_nonoverlap.v
+Fmoore_101_nonoverlap.v
+!i122 24
+Z10 L0 1 27
+R4
+r1
+!s85 0
+31
+R5
+R9
+R6
+!i113 1
+R7
+vmoore_101_overlap
+R1
+!i10b 1
+!s100 Xf@I5NamIL;YK;4jeVD952
+R2
+I[IJ4;NhdSN^^9SO6YY^C11
+R3
+R0
+w1751235835
+8moore_101_overlap.v
+Fmoore_101_overlap.v
+!i122 24
+R10
+R4
+r1
+!s85 0
+31
+R5
+R9
+R6
+!i113 1
+R7
+vmoore_nonov_DUT
+R1
+!i10b 1
+!s100 ?K_moVbN<KhJciGHZ63gX3
+R2
+ICRTO@7@=a?m65jif:@=bE3
+R3
+R0
+w1751238473
+8tb_moore_nonov.v
+Ftb_moore_nonov.v
+!i122 24
+R8
+R4
+r1
+!s85 0
+31
+R5
+R9
+R6
+!i113 1
+R7
+nmoore_nonov_@d@u@t
+vmoore_ov_DUT
+R1
+!i10b 1
+!s100 f[gB;fMLi3>@R0E_mfMQU1
+R2
+I?VAMLT<1@WBaSlBIL06f`2
+R3
+R0
+w1751235476
+8tb_moore_ov.v
+Ftb_moore_ov.v
+!i122 24
+R8
+R4
+r1
+!s85 0
+31
+R5
+R9
+R6
+!i113 1
+R7
+nmoore_ov_@d@u@t
+vVM_DUT
+R1
+!i10b 1
+!s100 DLWe2<Bi<eLHY<5Z27n7R3
+R2
+IO1;3Q^Nge3`XUk0<9ACEh3
+R3
+R0
+w1751154462
+8tb_VM.v
+Ftb_VM.v
+!i122 24
+L0 1 63
+R4
+r1
+!s85 0
+31
+R5
+R9
+R6
+!i113 1
+R7
+n@v@m_@d@u@t
+vVM_FSM
+R1
+!i10b 1
+!s100 [jHTI1mYEOA?X516VFeJg0
+R2
+IYeO1W8=Xh=XHnj1_kS^;<1
+R3
+R0
+w1751126163
+8vending_machine.v
+Fvending_machine.v
+!i122 24
+L0 1 54
+R4
+r1
+!s85 0
+31
+R5
+R9
+R6
+!i113 1
+R7
+n@v@m_@f@s@m

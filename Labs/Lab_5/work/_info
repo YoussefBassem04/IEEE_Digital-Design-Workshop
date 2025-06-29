@@ -1,0 +1,102 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Electronics - Analog and Digital/IEEE/Digital Design/Labs/Lab_5
+vmealy_101
+Z1 !s110 1751123335
+!i10b 1
+!s100 c_nQ[i2a?m]EkW@@k[;FF2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ig]L_nmzoBazGMnAm>c:WG0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1751120925
+8mealy_101_detector.v
+Fmealy_101_detector.v
+!i122 25
+L0 1 29
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1751123335.000000
+!s107 tb_101.v|myFSM.v|mealy_101_detector.v|
+Z6 !s90 mealy_101_detector.v|myFSM.v|tb_101.v|
+!i113 1
+Z7 tCvgOpt 0
+vmealy_101_DUT
+R1
+!i10b 1
+!s100 QBgjN8Eg9K9IPGDLbI13R2
+R2
+IZ33[?L0ABJ22^K7_ZE3Fn3
+R3
+R0
+w1751123331
+8tb_101.v
+Ftb_101.v
+!i122 25
+Z8 L0 1 33
+R4
+r1
+!s85 0
+31
+R5
+Z9 !s107 tb_101.v|myFSM.v|mealy_101_detector.v|
+R6
+!i113 1
+R7
+nmealy_101_@d@u@t
+vmyFSM
+R1
+!i10b 1
+!s100 i2gk1JL9e0WbRmLJOJZMS0
+R2
+I6NcK;GLEHPmX=8=ogj7]I2
+R3
+R0
+w1751056206
+8myFSM.v
+FmyFSM.v
+!i122 25
+L0 1 63
+R4
+r1
+!s85 0
+31
+R5
+R9
+R6
+!i113 1
+R7
+nmy@f@s@m
+vmyFSM_DUT
+!s110 1751120565
+!i10b 1
+!s100 eS>C@NzY:oS4N7FeNLnP32
+R2
+ID;[lKnok2WIU7?lC@l3i40
+R3
+R0
+w1751053846
+8tb_myFSM.v
+Ftb_myFSM.v
+!i122 13
+R8
+R4
+r1
+!s85 0
+31
+!s108 1751120564.000000
+!s107 tb_myFSM.v|myFSM.v|mealy_101_detector.v|
+!s90 mealy_101_detector.v|myFSM.v|tb_myFSM.v|
+!i113 1
+R7
+nmy@f@s@m_@d@u@t
