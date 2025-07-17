@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 dC:/Electronics - Analog and Digital/IEEE/Digital Design/Assignments/Assignment_5
 vmealy_101_overlap
-Z1 !s110 1751238476
+Z1 !s110 1752702279
 !i10b 1
 !s100 Whh`ggW=DKVLGXhdFIKaN0
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -20,15 +20,15 @@ R0
 w1751156116
 8mealy_101_overlap.v
 Fmealy_101_overlap.v
-!i122 24
+!i122 45
 L0 1 25
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1751238476.000000
-!s107 vending_machine.v|tb_VM.v|tb_moore_ov.v|tb_moore_nonov.v|tb_mealy_ov.v|tb_mealy_nonov.v|moore_101_overlap.v|moore_101_nonoverlap.v|mealy_101_overlap.v|mealy_101_nonoverlap.v|
-Z6 !s90 mealy_101_nonoverlap.v|mealy_101_overlap.v|moore_101_nonoverlap.v|moore_101_overlap.v|tb_mealy_nonov.v|tb_mealy_ov.v|tb_moore_nonov.v|tb_moore_ov.v|tb_VM.v|vending_machine.v|
+Z5 !s108 1752702279.000000
+!s107 vm.v|vending_machine.v|tb_VM.v|tb_moore_ov.v|tb_moore_nonov.v|tb_mealy_ov.v|tb_mealy_nonov.v|moore_101_overlap.v|moore_101_nonoverlap.v|mealy_101_overlap.v|mealy_101_nonoverlap.v|
+Z6 !s90 mealy_101_nonoverlap.v|mealy_101_overlap.v|moore_101_nonoverlap.v|moore_101_overlap.v|tb_mealy_nonov.v|tb_mealy_ov.v|tb_moore_nonov.v|tb_moore_ov.v|tb_VM.v|vending_machine.v|vm.v|
 !i113 1
 Z7 tCvgOpt 0
 vmealy_nonov_DUT
@@ -42,14 +42,14 @@ R0
 w1751238081
 8tb_mealy_nonov.v
 Ftb_mealy_nonov.v
-!i122 24
+!i122 45
 Z8 L0 1 31
 R4
 r1
 !s85 0
 31
 R5
-Z9 !s107 vending_machine.v|tb_VM.v|tb_moore_ov.v|tb_moore_nonov.v|tb_mealy_ov.v|tb_mealy_nonov.v|moore_101_overlap.v|moore_101_nonoverlap.v|mealy_101_overlap.v|mealy_101_nonoverlap.v|
+Z9 !s107 vm.v|vending_machine.v|tb_VM.v|tb_moore_ov.v|tb_moore_nonov.v|tb_mealy_ov.v|tb_mealy_nonov.v|moore_101_overlap.v|moore_101_nonoverlap.v|mealy_101_overlap.v|mealy_101_nonoverlap.v|
 R6
 !i113 1
 R7
@@ -65,7 +65,7 @@ R0
 w1751238040
 8mealy_101_nonoverlap.v
 Fmealy_101_nonoverlap.v
-!i122 24
+!i122 45
 L0 1 26
 R4
 r1
@@ -87,7 +87,7 @@ R0
 w1751221858
 8tb_mealy_ov.v
 Ftb_mealy_ov.v
-!i122 24
+!i122 45
 R8
 R4
 r1
@@ -110,7 +110,7 @@ R0
 w1751238426
 8moore_101_nonoverlap.v
 Fmoore_101_nonoverlap.v
-!i122 24
+!i122 45
 Z10 L0 1 27
 R4
 r1
@@ -132,7 +132,7 @@ R0
 w1751235835
 8moore_101_overlap.v
 Fmoore_101_overlap.v
-!i122 24
+!i122 45
 R10
 R4
 r1
@@ -154,7 +154,7 @@ R0
 w1751238473
 8tb_moore_nonov.v
 Ftb_moore_nonov.v
-!i122 24
+!i122 45
 R8
 R4
 r1
@@ -177,7 +177,7 @@ R0
 w1751235476
 8tb_moore_ov.v
 Ftb_moore_ov.v
-!i122 24
+!i122 45
 R8
 R4
 r1
@@ -189,19 +189,19 @@ R6
 !i113 1
 R7
 nmoore_ov_@d@u@t
-vVM_DUT
+vvending_fsm_3
 R1
 !i10b 1
-!s100 DLWe2<Bi<eLHY<5Z27n7R3
+!s100 WMNZh1Ukm[;5<0c7og:bi1
 R2
-IO1;3Q^Nge3`XUk0<9ACEh3
+IRW2UGgjjU9m>CR@2e4fIB0
 R3
 R0
-w1751154462
-8tb_VM.v
-Ftb_VM.v
-!i122 24
-L0 1 63
+w1752701401
+8vm.v
+Fvm.v
+!i122 45
+L0 1 77
 R4
 r1
 !s85 0
@@ -211,20 +211,19 @@ R9
 R6
 !i113 1
 R7
-n@v@m_@d@u@t
-vVM_FSM
+vvending_fsm_tb
 R1
 !i10b 1
-!s100 [jHTI1mYEOA?X516VFeJg0
+!s100 oM>D0<AN_5IYQZARo7AEF0
 R2
-IYeO1W8=Xh=XHnj1_kS^;<1
+I<0eU82kKZi6^zP2]E3P1B1
 R3
 R0
-w1751126163
-8vending_machine.v
-Fvending_machine.v
-!i122 24
-L0 1 54
+w1752702090
+Z11 8tb_VM.v
+Z12 Ftb_VM.v
+!i122 45
+L0 1 105
 R4
 r1
 !s85 0
@@ -232,6 +231,73 @@ r1
 R5
 R9
 R6
+!i113 1
+R7
+vvending_machine
+R1
+!i10b 1
+!s100 K84G75lY3h6Faj4bDHYXW2
+R2
+INVn2YH_bREPEe[4;h4HLb0
+R3
+R0
+w1752702275
+Z13 8vending_machine.v
+Z14 Fvending_machine.v
+!i122 45
+L0 1 46
+R4
+r1
+!s85 0
+31
+R5
+R9
+R6
+!i113 1
+R7
+vVM_DUT
+!s110 1752700936
+!i10b 1
+!s100 HV2Y07YSJ4LO6k8gN0Kg^3
+R2
+IEMIbRJ_Yg?WeD:eh_8Dea3
+R3
+R0
+w1752700930
+R11
+R12
+!i122 31
+L0 1 69
+R4
+r1
+!s85 0
+31
+!s108 1752700936.000000
+Z15 !s107 vending_machine.v|tb_VM.v|tb_moore_ov.v|tb_moore_nonov.v|tb_mealy_ov.v|tb_mealy_nonov.v|moore_101_overlap.v|moore_101_nonoverlap.v|mealy_101_overlap.v|mealy_101_nonoverlap.v|
+Z16 !s90 mealy_101_nonoverlap.v|mealy_101_overlap.v|moore_101_nonoverlap.v|moore_101_overlap.v|tb_mealy_nonov.v|tb_mealy_ov.v|tb_moore_nonov.v|tb_moore_ov.v|tb_VM.v|vending_machine.v|
+!i113 1
+R7
+n@v@m_@d@u@t
+vVM_FSM
+!s110 1751238476
+!i10b 1
+!s100 [jHTI1mYEOA?X516VFeJg0
+R2
+IYeO1W8=Xh=XHnj1_kS^;<1
+R3
+R0
+w1751126163
+R13
+R14
+!i122 24
+L0 1 54
+R4
+r1
+!s85 0
+31
+!s108 1751238476.000000
+R15
+R16
 !i113 1
 R7
 n@v@m_@f@s@m

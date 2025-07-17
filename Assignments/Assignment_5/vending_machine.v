@@ -1,54 +1,46 @@
-module VM_FSM(
-    input wire clk,rst,coin_in,cancel,dispense, 
-    output reg item_out);
+module vending_machine(
+    input clk,rst,coin_in,cancel,dispense,
+    output reg item_out
+);
 
-
-localparam IDLE = 0, READY = 1, DISPENSE = 2;
+localparam [2:0] IDLE = 3'b0,READY = 3'b001,DISPENSE = 3'b011;
 
 reg [1:0] ps,ns;
-integer counter = 0;
 
-always @(posedge clk, posedge rst) begin
+reg [2:0] count;
+
+always @(posedge clk,posedge rst) begin
     if (rst) begin
         ps <= IDLE;
-        counter = 0;
+        count <= 0;
     end
     else begin
         ps <= ns;
-        if (cancel || ps == DISPENSE) begin
-            counter = 0;
-        end
     end
 end
 
-always @(coin_in) begin
-    if (ps == IDLE) begin
-        counter = counter + 1;
-    end
+always @(posedge clk,posedge rst) begin
+    if (ps == IDLE && coin_in)
+        count <= count + 1;
+    
+    if (cancel || ps == DISPENSE)
+        count <= 0;
 end
+
 
 always @(*) begin
     case (ps)
-        IDLE:       ns = (cancel)? IDLE : ((coin_in && counter < 5)? IDLE : READY);
-        READY:      ns = (cancel)? IDLE : ((dispense && counter >= 5)? DISPENSE : READY);
-        DISPENSE: begin
-            if (cancel) begin
-                ns = IDLE;
-            end
-            else if(dispense) begin
-                ns = IDLE; 
-            end
-            else begin
-              ns = DISPENSE;
-            end
-        end
+        IDLE: ns = (cancel)? IDLE : ((coin_in && count >= 4)? READY :IDLE); 
+        READY:begin ns = (dispense)? DISPENSE : READY; if (cancel) ns = IDLE; end
+        DISPENSE:ns = IDLE; 
         default: ns = IDLE;
     endcase
 end
 always @(*) begin
-    if(ps == DISPENSE)
-        item_out = 1;
+    if (ps == DISPENSE)
+        item_out = 1'b1;
     else
-        item_out = 0;
+        item_out = 1'b0;
 end
+
 endmodule

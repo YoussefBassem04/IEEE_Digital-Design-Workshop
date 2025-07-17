@@ -1,0 +1,35 @@
+# vsim vending_fsm_tb 
+# Start time: 00:44:44 on Jul 17,2025
+# Loading work.vending_fsm_tb
+# Loading work.vending_machine
+add wave -position insertpoint  \
+sim:/vending_fsm_tb/clk \
+sim:/vending_fsm_tb/rst \
+sim:/vending_fsm_tb/coin_in \
+sim:/vending_fsm_tb/cancel \
+sim:/vending_fsm_tb/dispense \
+sim:/vending_fsm_tb/item_out \
+sim:/vending_fsm_tb/count
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: youss  Hostname: MSI  ProcessID: 17144
+#           Attempting to use alternate WLF file "./wlft5ngbz8".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft5ngbz8
+run -all
+# Starting Vending FSM testbench...
+# Count =           0	Item out = 0
+# Count =           1	Item out = 0
+# Count =           2	Item out = 0
+# Count =           3	Item out = 0
+# Count =           4	Item out = 0
+# Count =           5	Item out = 0
+# Count =           5	Item out = 1
+# Count =           5	Item out = 0
+# Count =           6	Item out = 0
+# Count =           7	Item out = 0
+# Test completed.
+# ** Note: $stop    : tb_VM.v(98)
+#    Time: 242 ps  Iteration: 0  Instance: /vending_fsm_tb
+# Break in Module vending_fsm_tb at tb_VM.v line 98
+# End time: 00:45:24 on Jul 17,2025, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 2
