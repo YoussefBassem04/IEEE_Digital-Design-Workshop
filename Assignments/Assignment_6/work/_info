@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 dC:/Electronics - Analog and Digital/IEEE/Digital Design/Assignments/Assignment_6
 vdpRam_DUT
-Z1 !s110 1752763593
+Z1 !s110 1752772175
 !i10b 1
 !s100 LP4jZo>[dQJ0LHKY0?5aP1
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -20,15 +20,15 @@ R0
 w1752761065
 8tb_dp_ram.v
 Ftb_dp_ram.v
-!i122 23
+!i122 28
 L0 1 86
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1752763593.000000
-!s107 tb_fifo.v|tb_dp_ram.v|fifo.v|dp_ram.v|
-Z6 !s90 dp_ram.v|fifo.v|tb_dp_ram.v|tb_fifo.v|
+Z5 !s108 1752772175.000000
+!s107 tb_lifo.v|tb_fifo.v|tb_dp_ram.v|lifo.v|fifo.v|dp_ram.v|
+Z6 !s90 dp_ram.v|fifo.v|lifo.v|tb_dp_ram.v|tb_fifo.v|tb_lifo.v|
 !i113 1
 Z7 tCvgOpt 0
 ndp@ram_@d@u@t
@@ -43,14 +43,14 @@ R0
 w1752761031
 8dp_ram.v
 Fdp_ram.v
-!i122 23
+!i122 28
 L0 1 27
 R4
 r1
 !s85 0
 31
 R5
-Z8 !s107 tb_fifo.v|tb_dp_ram.v|fifo.v|dp_ram.v|
+Z8 !s107 tb_lifo.v|tb_fifo.v|tb_dp_ram.v|lifo.v|fifo.v|dp_ram.v|
 R6
 !i113 1
 R7
@@ -65,7 +65,7 @@ R0
 w1752763531
 8fifo.v
 Ffifo.v
-!i122 23
+!i122 28
 L0 1 41
 R4
 r1
@@ -87,7 +87,7 @@ R0
 w1752763588
 8tb_fifo.v
 Ftb_fifo.v
-!i122 23
+!i122 28
 L0 1 68
 R4
 r1
@@ -99,3 +99,48 @@ R6
 !i113 1
 R7
 nfifo_@d@u@t
+vlifo
+R1
+!i10b 1
+!s100 >3EFjTUOjCE:kG7C`InI73
+R2
+IWZFNm<gC0oIKiI6k9@UJ21
+R3
+R0
+w1752772059
+8lifo.v
+Flifo.v
+!i122 28
+L0 1 30
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vlifo_DUT
+R1
+!i10b 1
+!s100 nDbRTe7lPe8]YN>7^cJBU0
+R2
+IeC>08zMIk_<TO_fg_l]z;1
+R3
+R0
+w1752772171
+8tb_lifo.v
+Ftb_lifo.v
+!i122 28
+L0 1 70
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+nlifo_@d@u@t
