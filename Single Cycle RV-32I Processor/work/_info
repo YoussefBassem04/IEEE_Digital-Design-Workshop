@@ -1,0 +1,330 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Electronics - Analog and Digital/IEEE/Digital Design/Single Cycle RV-32I Processor
+vALU
+Z1 !s110 1753819709
+!i10b 1
+!s100 T;PU`=l3OUkc]bH39XWEE1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I2E;E8G7eT3mLFAOW?PQTT2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1753816891
+8ALU.v
+FALU.v
+!i122 30
+Z4 L0 1 25
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1753819709.000000
+!s107 tb_RISCV.v|Sign_Extender.v|Register_File.v|RISCV.v|PC.v|Main_Decoder.v|MUX_2x1.v|Instruction_Memory.v|Data_Memory.v|Control_Unit.v|ALUDecoder.v|ALU.v|
+Z7 !s90 -reportprogress|300|ALU.v|ALUDecoder.v|Control_Unit.v|Data_Memory.v|Instruction_Memory.v|MUX_2x1.v|Main_Decoder.v|PC.v|RISCV.v|Register_File.v|Sign_Extender.v|tb_RISCV.v|
+!i113 1
+Z8 tCvgOpt 0
+n@a@l@u
+vALUDecoder
+R1
+!i10b 1
+!s100 `zkDbafe6FU8SZoRGl>PD1
+R2
+IRJBSbfOT[URnkEc:b;JK51
+R3
+R0
+w1753819048
+8ALUDecoder.v
+FALUDecoder.v
+!i122 30
+L0 1 33
+R5
+r1
+!s85 0
+31
+R6
+Z9 !s107 tb_RISCV.v|Sign_Extender.v|Register_File.v|RISCV.v|PC.v|Main_Decoder.v|MUX_2x1.v|Instruction_Memory.v|Data_Memory.v|Control_Unit.v|ALUDecoder.v|ALU.v|
+R7
+!i113 1
+R8
+n@a@l@u@decoder
+vControlUnit
+R1
+!i10b 1
+!s100 DQ91EHc3iH8Ze1TIkzFP12
+R2
+IA:E4e2mGGh[II5;@484no3
+R3
+R0
+w1753819094
+8Control_Unit.v
+FControl_Unit.v
+!i122 30
+L0 1 42
+R5
+r1
+!s85 0
+31
+R6
+R9
+R7
+!i113 1
+R8
+n@control@unit
+vDataMemory
+R1
+!i10b 1
+!s100 Ooo8OeU?68ZR8_zK22N6H0
+R2
+IGbRIXeTNz38GBN;_5UmG30
+R3
+R0
+w1753819034
+8Data_Memory.v
+FData_Memory.v
+!i122 30
+L0 1 19
+R5
+r1
+!s85 0
+31
+R6
+R9
+R7
+!i113 1
+R8
+n@data@memory
+vInstrucgtionMemory
+!s110 1753812911
+!i10b 1
+!s100 h@RQNnFl4DTk`IkNK0g`22
+R2
+IG?WOMF1>;b6h]o1i_WB0L2
+R3
+R0
+w1753735792
+Z10 8Instruction_Memory.v
+Z11 FInstruction_Memory.v
+!i122 13
+L0 1 16
+R5
+r1
+!s85 0
+31
+!s108 1753812911.000000
+!s107 Sign_Extender.v|Register_File.v|PC.v|MUX_2x1.v|Main_Decoder.v|Instruction_Memory.v|Data_Memory.v|Control_Unit.v|ALUDecoder.v|ALU.v|
+!s90 ALU.v|ALUDecoder.v|Control_Unit.v|Data_Memory.v|Instruction_Memory.v|Main_Decoder.v|MUX_2x1.v|PC.v|Register_File.v|Sign_Extender.v|
+!i113 1
+R8
+n@instrucgtion@memory
+vInstructionMemory
+R1
+!i10b 1
+!s100 hKlVz5I__a56Tne98@HR80
+R2
+IONzO7=SaXiScozbcmIQ`P2
+R3
+R0
+w1753818976
+R10
+R11
+!i122 30
+L0 1 18
+R5
+r1
+!s85 0
+31
+R6
+R9
+R7
+!i113 1
+R8
+n@instruction@memory
+vMainDecoder
+R1
+!i10b 1
+!s100 bbChNMViXcjW`W<UVOgzQ3
+R2
+I7NIEMP@144L[ZJEl8XM=63
+R3
+R0
+w1753819077
+8Main_Decoder.v
+FMain_Decoder.v
+!i122 30
+L0 1 23
+R5
+r1
+!s85 0
+31
+R6
+R9
+R7
+!i113 1
+R8
+n@main@decoder
+vmux_2to1
+R1
+!i10b 1
+!s100 1VLODRHn@Hd;9kT10d3Y>0
+R2
+I`jPgz2onn`CbE`zg9>FXB3
+R3
+R0
+w1753731672
+8MUX_2x1.v
+FMUX_2x1.v
+!i122 30
+L0 1 9
+R5
+r1
+!s85 0
+31
+R6
+R9
+R7
+!i113 1
+R8
+vmux_2x1
+!s110 1751219853
+!i10b 1
+!s100 Vh9bSYKX3lJU0P[bi5mdg0
+R2
+IF=f=<f9Hfe5@z@V>4`AI00
+R3
+R0
+w1751219851
+8Mux_2x1.v
+FMux_2x1.v
+!i122 3
+L0 1 5
+R5
+r1
+!s85 0
+31
+!s108 1751219853.000000
+!s107 Sign_Extend.v|Mux_2x1.v|
+!s90 Mux_2x1.v|Sign_Extend.v|
+!i113 1
+R8
+vProgramCounter
+R1
+!i10b 1
+!s100 ac0j:]FQV6EFSi6WS5MeP1
+R2
+I?ZbXm@Ge^H9Q8]ea4bUeA0
+R3
+R0
+w1753819699
+8PC.v
+FPC.v
+!i122 30
+R4
+R5
+r1
+!s85 0
+31
+R6
+R9
+R7
+!i113 1
+R8
+n@program@counter
+vRegisterFile
+R1
+!i10b 1
+!s100 [^:NIa8nY5jn@bNOz?LB]3
+R2
+INPPM>5J1APNSF]:blZfOo0
+R3
+R0
+w1753819014
+8Register_File.v
+FRegister_File.v
+!i122 30
+L0 1 27
+R5
+r1
+!s85 0
+31
+R6
+R9
+R7
+!i113 1
+R8
+n@register@file
+vRISCV
+R1
+!i10b 1
+!s100 4:IEZ=MhkP1g<?G3jHWna3
+R2
+I3dI821`5h0PJB69[DTE`E1
+R3
+R0
+w1753819118
+8RISCV.v
+FRISCV.v
+!i122 30
+L0 1 49
+R5
+r1
+!s85 0
+31
+R6
+R9
+R7
+!i113 1
+R8
+n@r@i@s@c@v
+vriscv_DUT
+R1
+!i10b 1
+!s100 8;j8e8lf_Tlzm6Y=JTG7n0
+R2
+I9:KG2nlcN?_UX=JQ?j0m:1
+R3
+R0
+w1753818383
+8tb_RISCV.v
+Ftb_RISCV.v
+!i122 30
+L0 1 29
+R5
+r1
+!s85 0
+31
+R6
+R9
+R7
+!i113 1
+R8
+nriscv_@d@u@t
+vsign_extend
+R1
+!i10b 1
+!s100 I;WNL0hJPEafI0Qb:ILCC3
+R2
+IBa`b0LRmaFZfm<GhjNZ_H3
+R3
+R0
+w1753731658
+8Sign_Extender.v
+FSign_Extender.v
+!i122 30
+L0 1 17
+R5
+r1
+!s85 0
+31
+R6
+R9
+R7
+!i113 1
+R8
